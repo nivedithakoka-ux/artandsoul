@@ -1,0 +1,3 @@
+import {Facts,address,map} from '../shared';
+export const metadata={title:'Contact'};
+export default function Contact(){return <section className="page"><p className="eyebrow">Art and Soul Dance Studio</p><h1>Get in touch</h1><p>Ask about classes, trial sessions or performances.</p><Facts items={[["Address",address],["Map",<a href={map}>Open in Google Maps ↗</a>],["Phone",<a href="tel:+918143895167">8143895167</a>],["Email",<a href="mailto:artandsouldancek@gmail.com">artandsouldancek@gmail.com</a>],["Instagram",<a href="https://www.instagram.com/artandsouldance">@artandsouldance ↗</a>]]}/></section>}
