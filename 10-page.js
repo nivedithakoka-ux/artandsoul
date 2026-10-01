@@ -1,0 +1,3 @@
+import {Facts} from '../shared';
+export const metadata={title:'About me'};
+export default function About(){return <section className="page"><p className="eyebrow">The story behind the studio</p><h1>About me</h1><p>This is where your own story goes: how you started dancing, who you trained under, and what Kuchipudi means to you.</p><Facts items={[["Dancing since",<span className="draft">To be added</span>],["Trained with",<span className="draft">To be added</span>],["Performances",<span className="draft">To be added</span>]]}/><aside><strong>Still needed</strong><p>A few lines about you and one or two photos will make this page yours.</p></aside></section>}
